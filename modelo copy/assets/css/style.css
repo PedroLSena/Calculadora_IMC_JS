@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Inclusive+Sans&display=swap');
+:root{
+  --vermelho--escuro: rgb(121, 54, 54);
+  --cinza--escuro: rgb(182, 168, 168);
+  --vermelho--erro: rgb(145, 2, 2); 
+}
+
+* {
+  box-sizing: border-box;
+  outline: 0;
+}
+
+
+body {
+  margin: 0;
+  padding: 0;
+  background: var(--vermelho--escuro);
+  font-family: 'Inclusive sans';
+  font-size: 1.3em;
+  line-height: 1.5em;
+
+}
+
+.container{
+  max-width: 350px;
+  margin: 50px auto;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 5px -5px var(--cinza--escuro);
+
+}
+
+.resultadoCalculo{
+  margin: 20px ;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: aquamarine;
+}
+
+.botao{
+  padding: 5px;
+  margin: 20px 120px;
+  background-color: var(--cinza--escuro);
+  border-radius: 10px;
+  border: 0px;
+  font-size: large;
+}
+
+.texto1, .texto2{
+  border-radius: 5px;
+  opacity: 50%;
+}
+
+.textoPeso ,.textoAltura{
+  padding: 0px;
+  margin: 0px 60px;
+}
+
+.infoPeso, .infoAltura{
+  margin: 0px 60px;
+}
+.invalidoPeso, .invalidoAltura{
+  margin: 20px ;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: var(--vermelho--erro);
+}
+
